@@ -1,0 +1,74 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 400px;
+    border: 2px solid grey;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+    background-color: white;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.Prof_title {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-rows: 1fr 200px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.Prof_title h1 {
+    margin-bottom: 50px;
+}
+
+.Prof_title p {
+    font-size: 20px;
+    /* text-align: center; */
+    text-indent: 1em;
+}
+
+.intro_grid {
+    display: grid;
+    grid-template-rows: 100px 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.article_grid {
+    display: grid;
+    grid-template-columns: 1000px;
+    text-indent: 1em;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.image_grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+    justify-content: center;
+    align-items: stretch;
+}
+
+@media (max-width: 750px) {
+    .image_grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 999px) {
+    .image_grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}

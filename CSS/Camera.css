@@ -1,0 +1,100 @@
+img {
+    width: 200px;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(241, 153, 21);
+    border: 2px solid grey;
+}
+
+h1 {
+    text-align: center;
+margin-top: 20px;
+}
+
+#nikond {
+    float: left;
+    margin: 10px;
+}
+
+.camera1 {
+    text-indent: 1em;
+    text-align: justify;
+    margin: 50px;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+#nikonf {
+    float: right;
+    margin: 10px;
+}
+
+.camera2 {
+    text-indent: 1em;
+    text-align: justify;
+    margin: 50px;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+#bronica {
+    float: left;
+    margin: 10px;
+}
+
+.camera3 {
+    text-indent: 1em;
+    text-align: justify;
+    margin: 50px;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+#zeiss {
+    float: right;
+    margin: 10px;
+}
+
+.camera4 {
+    text-indent: 1em;
+    text-align: justify;
+    margin: 50px;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.camera_title {
+    clear: both;
+}
+
+a {
+    color: rgb(18, 46, 41);
+}
+
+a:hover {
+    color: rgb(162, 207, 199);
+}
+
+.camera_intro {
+    padding: 20px;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+@media (max-width: 900px){
+    .container {
+        width: 100%;
+    }
+}

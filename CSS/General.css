@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+li, a { 
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* .icon {
+    float: left;
+    margin-right: 10px;
+    width: 25px;
+} */
+
+img {
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar {
+    background-color: rgb(177, 175, 175);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+
+.nav_list {
+    list-style-type: none;
+    display: flex;
+    gap: 200px;
+    font-size: 30px;
+}
+
+.nav_list a{
+    color: white;
+}
+
+.nav_list a:hover {
+    color: rgb(96, 142, 153);
+}
+
+.folding_menu {
+    position: absolute;
+    display: none;
+}
+
+.nav_list_hamburger_menu {
+    display: none;
+}
+
+.nav_list_item:hover {
+    display: block;
+    list-style-type: none;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    display: block;
+    background-color: black;
+    padding: 20px 0;
+    color: white;
+}
+
+@media (max-width: 900px) {
+    .nav_list {
+        display: none;
+    }
+
+    
+    .folding_menu {
+        display: block;
+        right: 15px;
+        top: 10px;
+        width: 100px;
+    }
+
+    .folding_menu img {
+        width: 50px;
+    }
+
+    .folding_menu:hover{
+        cursor: pointer;
+    }
+
+    .folding_menu:hover .nav_list_hamburger_menu{
+        display: block;
+        list-style-type: none;
+    } 
+
+    .nav_list_hamburger_menu{
+        overflow: auto;
+        height: 150px;
+        width: auto;
+    }
+
+    .nav_list_hamburger_menu li {
+        border-top: 1px solid black;
+        color: black;
+        margin-top: 25px;
+        padding-top: 5px;
+    }
+
+    .nav_list_hamburger_menu li a:hover {
+        color: darkcyan;
+    }
+}

@@ -29,7 +29,7 @@ body {
 }
 
 .navbar {
-    background-color: rgb(177, 175, 175);
+    background: linear-gradient(to bottom right, #ffffff, #97936c, #cbdf1e);
     display: flex;
     justify-content: space-around;
     align-items: center;

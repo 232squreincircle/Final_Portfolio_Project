@@ -1,3 +1,15 @@
+# Publishing the site
+
+The main home page is `index.html` in the project root. Publish the entire
+project root so that `HTML/`, `CSS/`, `Icons/`, and `images/` remain alongside it.
+Publishing only `index.html` will leave the other pages and assets unavailable.
+
+The home page links to `HTML/About.html`, `HTML/Gallery.html`,
+`HTML/Camera.html`, and `HTML/Contact.html`. These pages link back to
+`../index.html`. Keep filename capitalization exact when editing links.
+All paths are relative, so the site can also be hosted under a project subfolder.
+The old `HTML/index.html` address redirects to the main home page.
+
 # pages for the fianl project
     
 > ## First page supposed to be the summary of each section included in the project:
